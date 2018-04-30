@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/r1"
+    android:background="@drawable/ds"
+    tools:context="com.example.student.ds.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="cursive"
+        android:background="#99000000"
+        android:gravity="center"
+        android:text="Quiz will be starting in : "
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:background="#99000000"
+        android:text="Large Text"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+</RelativeLayout>

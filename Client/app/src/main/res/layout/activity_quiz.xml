@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#444444"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.ds.Quiz">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="5dp"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Ques - 1"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:id="@+id/noq"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Large Text"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="35dp"
+                card_view:cardBackgroundColor="#A6800080"
+                android:clickable="true">
+
+            <TextView
+                android:id="@+id/q12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:layout_marginLeft="13dp"
+                android:textSize="22dp" />
+             </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="35dp"
+                card_view:cardBackgroundColor="#A6800080"
+                android:id="@+id/c1"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/o1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="13dp"
+                    android:textSize="22dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="35dp"
+                card_view:cardBackgroundColor="#A6800080"
+                android:id="@+id/c2"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/o2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="13dp"
+                    android:textSize="22dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="35dp"
+                card_view:cardBackgroundColor="#A6800080"
+                android:id="@+id/c3"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/o3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="13dp"
+                    android:textSize="22dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
