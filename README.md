@@ -15,6 +15,8 @@ Server Side
 Server receives the response given by different users at the same time through accept function of the ServerSocket class and creates a new thread for each client as a medium for interaction. After this the server creates a HashMap for storing the status of each client by storing the IP addresses of clients as key and their status as values. This status shows whether the client is eliminated or not. Once the client responds, the answer given by clients goes to the server and then server checks these two conditions: 
 1. The answer given by client is matching the answer in the database or not?
 2. The client responded within 15 seconds or not?
+
 If any of this condition fails then the server changes the status of that particular client from active to inactive state.
+
 1. If the client is active then the server will receive its responses and will give the feedback.
 2. Once the client is inactive then the client will be able to see the further questions but he/she will not be able to respond.
