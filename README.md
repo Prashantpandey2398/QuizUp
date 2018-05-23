@@ -20,10 +20,3 @@ If any of this condition fails then the server changes the status of that partic
 
 1. If the client is active then the server will receive its responses and will give the feedback.
 2. Once the client is inactive then the client will be able to see the further questions but he/she will not be able to respond.
-
-
-Other Contributors:
-
-Abhya Ranjan Yadav
-
-Praman Satya
